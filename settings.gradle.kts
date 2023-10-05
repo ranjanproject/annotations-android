@@ -1,4 +1,8 @@
 pluginManagement {
+    plugins {
+        id("com.google.devtools.ksp")
+        kotlin("jvm") version "1.6.20"
+    }
     repositories {
         google()
         mavenCentral()
