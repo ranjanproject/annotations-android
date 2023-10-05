@@ -1,4 +1,5 @@
 package live.groupstudy.annotations
 
-@Target(AnnotationTarget.ANNOTATION_CLASS)
+@Target(AnnotationTarget.CLASS)
+@Retention(AnnotationRetention.SOURCE)
 annotation class CustomAnnotation(val name: String)
