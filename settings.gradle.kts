@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "AnnotationPracticeApp"
 include(":app")
- 
+include(":annotation-processors")
+include(":annotations")
